@@ -368,4 +368,25 @@ html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
     font-size: 22px;
     padding-bottom: 23px;
   }
+  .survey-section .survey-form .survey-box {
+    padding: 20px;
+  }
+  .survey-section .survey-form .survey-box::after {
+    display: none;
+  }
+  .survey-section .survey-form .survey-box .question-box .question-label-box {
+    padding: 10px;
+  }
+  .survey-section .survey-form .survey-box .question-box .question-label-box .prag, .survey-section .survey-form .survey-box .question-box .question-label-box .link-style, .survey-section .survey-form .survey-box .question-box .question-label-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .survey-form .survey-box .question-box .question-label-box .lang-link, .survey-section .survey-form .survey-box .question-box .question-label-box .min-content .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .survey-section .survey-form .survey-box .question-box .question-label-box label {
+    font-size: 14px !important;
+  }
+  .survey-section .survey-form .survey-box .question-box:after {
+    width: 28px;
+  }
+  html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
+    left: -29px;
+  }
+  html[dir="rtl"] .survey-section .survey-form .survey-box .question-box:after {
+    right: -29px;
+  }
 }

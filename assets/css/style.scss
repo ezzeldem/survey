@@ -376,4 +376,33 @@ textarea{
       }
     }
   }
+
+  .survey-section{
+       .survey-form{
+            .survey-box{
+                padding: 20px;
+                &::after{
+                    display: none;
+                }
+                .question-box{
+                    .question-label-box{
+                        padding: 10px;
+                        .prag {
+                            font-size: 14px !important;
+                        }
+                    }
+                    &:after{
+                        width: 28px;
+                        html[dir="ltr"] &{
+                        left: -29px;
+                    }
+                        html[dir="rtl"] &{
+                        right: -29px;
+                    }
+                }
+                }
+            }
+        }
+    }
+
 }
