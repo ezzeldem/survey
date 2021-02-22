@@ -368,6 +368,9 @@ html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
     font-size: 22px;
     padding-bottom: 23px;
   }
+  .survey-section .intro-box .intro-text {
+    font-size: 20px;
+  }
   .survey-section .survey-form .survey-box {
     padding: 20px;
   }
