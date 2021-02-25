@@ -25,6 +25,11 @@ html[dir="rtl"] body {
   font-family: "Tajawal", sans-serif;
 }
 
+html[dir="rtl"] .pretty .state label:before, html[dir="rtl"] .pretty .state label:after {
+  left: unset;
+  right: 0;
+}
+
 .trans-4, input, textarea, .link-style, .header-container .lang-box .lang-link {
   -webkit-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
@@ -38,7 +43,7 @@ html[dir="rtl"] body {
   margin: 40px 0;
 }
 
-.prag, .link-style, .header-container .lang-box .lang-link, .min-content .logIn-form-box .logIn-form .form-group label {
+.prag, .form-group label, .link-style, .header-container .lang-box .lang-link {
   font-size: 16px;
   font-weight: 500;
   color: white;
@@ -48,7 +53,7 @@ html[dir="rtl"] body {
   font-family: "Tajawal", sans-serif;
 }
 
-.width-center, .min-content .copany-img, .min-content .cherMan-massge .prag, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label, .min-content .logIn-form-box .logIn-form, .survey-section .intro-box .prag, .survey-section .intro-box .link-style, .survey-section .intro-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .intro-box .lang-link, .survey-section .intro-box .min-content .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .survey-section .intro-box label {
+.width-center, .min-content .copany-img, .min-content .cherMan-massge .prag, .min-content .cherMan-massge .form-group label, .form-group .min-content .cherMan-massge label, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link, .min-content .logIn-form-box .logIn-form, .survey-section .intro-box .prag, .survey-section .intro-box .form-group label, .form-group .survey-section .intro-box label, .survey-section .intro-box .link-style, .survey-section .intro-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .intro-box .lang-link {
   width: 70%;
   margin: 0 auto;
 }
@@ -57,19 +62,23 @@ html[dir="rtl"] body {
   border-radius: 5px;
 }
 
-.after-img, .min-content .cherMan-massge .prag, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label {
+.form-group {
+  padding: 10px 0 0;
+}
+
+.after-img, .min-content .cherMan-massge .prag, .min-content .cherMan-massge .form-group label, .form-group .min-content .cherMan-massge label, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link {
   position: relative;
 }
 
-html[dir="rtl"] .after-img, html[dir="rtl"] .min-content .cherMan-massge .prag, .min-content .cherMan-massge html[dir="rtl"] .prag, html[dir="rtl"] .min-content .cherMan-massge .link-style, .min-content .cherMan-massge html[dir="rtl"] .link-style, html[dir="rtl"] .min-content .cherMan-massge .header-container .lang-box .lang-link, .min-content .cherMan-massge .header-container .lang-box html[dir="rtl"] .lang-link, html[dir="rtl"] .header-container .lang-box .min-content .cherMan-massge .lang-link, .header-container .lang-box .min-content .cherMan-massge html[dir="rtl"] .lang-link, html[dir="rtl"] .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group html[dir="rtl"] label, html[dir="rtl"] .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge html[dir="rtl"] label {
+html[dir="rtl"] .after-img, html[dir="rtl"] .min-content .cherMan-massge .prag, .min-content .cherMan-massge html[dir="rtl"] .prag, html[dir="rtl"] .min-content .cherMan-massge .form-group label, .min-content .cherMan-massge .form-group html[dir="rtl"] label, html[dir="rtl"] .form-group .min-content .cherMan-massge label, .form-group .min-content .cherMan-massge html[dir="rtl"] label, html[dir="rtl"] .min-content .cherMan-massge .link-style, .min-content .cherMan-massge html[dir="rtl"] .link-style, html[dir="rtl"] .min-content .cherMan-massge .header-container .lang-box .lang-link, .min-content .cherMan-massge .header-container .lang-box html[dir="rtl"] .lang-link, html[dir="rtl"] .header-container .lang-box .min-content .cherMan-massge .lang-link, .header-container .lang-box .min-content .cherMan-massge html[dir="rtl"] .lang-link {
   padding: 0 40px 0 0;
 }
 
-html[dir="ltr"] .after-img, html[dir="ltr"] .min-content .cherMan-massge .prag, .min-content .cherMan-massge html[dir="ltr"] .prag, html[dir="ltr"] .min-content .cherMan-massge .link-style, .min-content .cherMan-massge html[dir="ltr"] .link-style, html[dir="ltr"] .min-content .cherMan-massge .header-container .lang-box .lang-link, .min-content .cherMan-massge .header-container .lang-box html[dir="ltr"] .lang-link, html[dir="ltr"] .header-container .lang-box .min-content .cherMan-massge .lang-link, .header-container .lang-box .min-content .cherMan-massge html[dir="ltr"] .lang-link, html[dir="ltr"] .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group html[dir="ltr"] label, html[dir="ltr"] .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge html[dir="ltr"] label {
+html[dir="ltr"] .after-img, html[dir="ltr"] .min-content .cherMan-massge .prag, .min-content .cherMan-massge html[dir="ltr"] .prag, html[dir="ltr"] .min-content .cherMan-massge .form-group label, .min-content .cherMan-massge .form-group html[dir="ltr"] label, html[dir="ltr"] .form-group .min-content .cherMan-massge label, .form-group .min-content .cherMan-massge html[dir="ltr"] label, html[dir="ltr"] .min-content .cherMan-massge .link-style, .min-content .cherMan-massge html[dir="ltr"] .link-style, html[dir="ltr"] .min-content .cherMan-massge .header-container .lang-box .lang-link, .min-content .cherMan-massge .header-container .lang-box html[dir="ltr"] .lang-link, html[dir="ltr"] .header-container .lang-box .min-content .cherMan-massge .lang-link, .header-container .lang-box .min-content .cherMan-massge html[dir="ltr"] .lang-link {
   padding: 0 0 0 40px;
 }
 
-.after-img::after, .min-content .cherMan-massge .prag::after, .min-content .cherMan-massge .link-style::after, .min-content .cherMan-massge .header-container .lang-box .lang-link::after, .header-container .lang-box .min-content .cherMan-massge .lang-link::after, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label::after, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label::after {
+.after-img::after, .min-content .cherMan-massge .prag::after, .min-content .cherMan-massge .form-group label::after, .form-group .min-content .cherMan-massge label::after, .min-content .cherMan-massge .link-style::after, .min-content .cherMan-massge .header-container .lang-box .lang-link::after, .header-container .lang-box .min-content .cherMan-massge .lang-link::after {
   content: "";
   position: absolute;
   top: 0;
@@ -81,12 +90,12 @@ html[dir="ltr"] .after-img, html[dir="ltr"] .min-content .cherMan-massge .prag, 
   background-size: contain;
 }
 
-html[dir="rtl"] .after-img::after, html[dir="rtl"] .min-content .cherMan-massge .prag::after, .min-content .cherMan-massge html[dir="rtl"] .prag::after, html[dir="rtl"] .min-content .cherMan-massge .link-style::after, .min-content .cherMan-massge html[dir="rtl"] .link-style::after, html[dir="rtl"] .min-content .cherMan-massge .header-container .lang-box .lang-link::after, .min-content .cherMan-massge .header-container .lang-box html[dir="rtl"] .lang-link::after, html[dir="rtl"] .header-container .lang-box .min-content .cherMan-massge .lang-link::after, .header-container .lang-box .min-content .cherMan-massge html[dir="rtl"] .lang-link::after, html[dir="rtl"] .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label::after, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group html[dir="rtl"] label::after, html[dir="rtl"] .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label::after, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge html[dir="rtl"] label::after {
+html[dir="rtl"] .after-img::after, html[dir="rtl"] .min-content .cherMan-massge .prag::after, .min-content .cherMan-massge html[dir="rtl"] .prag::after, html[dir="rtl"] .min-content .cherMan-massge .form-group label::after, .min-content .cherMan-massge .form-group html[dir="rtl"] label::after, html[dir="rtl"] .form-group .min-content .cherMan-massge label::after, .form-group .min-content .cherMan-massge html[dir="rtl"] label::after, html[dir="rtl"] .min-content .cherMan-massge .link-style::after, .min-content .cherMan-massge html[dir="rtl"] .link-style::after, html[dir="rtl"] .min-content .cherMan-massge .header-container .lang-box .lang-link::after, .min-content .cherMan-massge .header-container .lang-box html[dir="rtl"] .lang-link::after, html[dir="rtl"] .header-container .lang-box .min-content .cherMan-massge .lang-link::after, .header-container .lang-box .min-content .cherMan-massge html[dir="rtl"] .lang-link::after {
   right: 0;
   left: unset;
 }
 
-html[dir="ltr"] .after-img::after, html[dir="ltr"] .min-content .cherMan-massge .prag::after, .min-content .cherMan-massge html[dir="ltr"] .prag::after, html[dir="ltr"] .min-content .cherMan-massge .link-style::after, .min-content .cherMan-massge html[dir="ltr"] .link-style::after, html[dir="ltr"] .min-content .cherMan-massge .header-container .lang-box .lang-link::after, .min-content .cherMan-massge .header-container .lang-box html[dir="ltr"] .lang-link::after, html[dir="ltr"] .header-container .lang-box .min-content .cherMan-massge .lang-link::after, .header-container .lang-box .min-content .cherMan-massge html[dir="ltr"] .lang-link::after, html[dir="ltr"] .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label::after, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group html[dir="ltr"] label::after, html[dir="ltr"] .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label::after, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge html[dir="ltr"] label::after {
+html[dir="ltr"] .after-img::after, html[dir="ltr"] .min-content .cherMan-massge .prag::after, .min-content .cherMan-massge html[dir="ltr"] .prag::after, html[dir="ltr"] .min-content .cherMan-massge .form-group label::after, .min-content .cherMan-massge .form-group html[dir="ltr"] label::after, html[dir="ltr"] .form-group .min-content .cherMan-massge label::after, .form-group .min-content .cherMan-massge html[dir="ltr"] label::after, html[dir="ltr"] .min-content .cherMan-massge .link-style::after, .min-content .cherMan-massge html[dir="ltr"] .link-style::after, html[dir="ltr"] .min-content .cherMan-massge .header-container .lang-box .lang-link::after, .min-content .cherMan-massge .header-container .lang-box html[dir="ltr"] .lang-link::after, html[dir="ltr"] .header-container .lang-box .min-content .cherMan-massge .lang-link::after, .header-container .lang-box .min-content .cherMan-massge html[dir="ltr"] .lang-link::after {
   right: unset;
   left: 0;
 }
@@ -213,7 +222,7 @@ html[dir="rtl"] .header-container .lang-box .lang-link {
   width: 111px;
 }
 
-.min-content .cherMan-massge .prag, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label {
+.min-content .cherMan-massge .prag, .min-content .cherMan-massge .form-group label, .form-group .min-content .cherMan-massge label, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link {
   text-align: justify;
 }
 
@@ -239,7 +248,7 @@ html[dir="rtl"] .header-container .lang-box .lang-link {
   margin-bottom: 20px;
 }
 
-.survey-section .intro-box .prag, .survey-section .intro-box .link-style, .survey-section .intro-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .intro-box .lang-link, .survey-section .intro-box .min-content .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .survey-section .intro-box label {
+.survey-section .intro-box .prag, .survey-section .intro-box .form-group label, .form-group .survey-section .intro-box label, .survey-section .intro-box .link-style, .survey-section .intro-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .intro-box .lang-link {
   color: #dddddd;
 }
 
@@ -299,7 +308,6 @@ html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
   color: #ba2c63;
   z-index: 99;
   position: absolute;
-  left: -37px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   height: 24px;
@@ -317,6 +325,15 @@ html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
           justify-content: center;
   border-radius: 50%;
   font-weight: 600;
+}
+
+html[dir="ltr"] .survey-section .survey-form .survey-box .question-box .question-numder {
+  left: -37px;
+}
+
+html[dir="rtl"] .survey-section .survey-form .survey-box .question-box .question-numder {
+  right: -37px;
+  left: unset;
 }
 
 .survey-section .survey-form .survey-box .question-box .question-label-box {
@@ -355,10 +372,10 @@ html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
 }
 
 @media (max-width: 772px) {
-  .width-center, .min-content .copany-img, .min-content .cherMan-massge .prag, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link, .min-content .cherMan-massge .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .cherMan-massge label, .min-content .logIn-form-box .logIn-form, .survey-section .intro-box .prag, .survey-section .intro-box .link-style, .survey-section .intro-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .intro-box .lang-link, .survey-section .intro-box .min-content .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .survey-section .intro-box label {
+  .width-center, .min-content .copany-img, .min-content .cherMan-massge .prag, .min-content .cherMan-massge .form-group label, .form-group .min-content .cherMan-massge label, .min-content .cherMan-massge .link-style, .min-content .cherMan-massge .header-container .lang-box .lang-link, .header-container .lang-box .min-content .cherMan-massge .lang-link, .min-content .logIn-form-box .logIn-form, .survey-section .intro-box .prag, .survey-section .intro-box .form-group label, .form-group .survey-section .intro-box label, .survey-section .intro-box .link-style, .survey-section .intro-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .intro-box .lang-link {
     width: 100%;
   }
-  .prag, .link-style, .header-container .lang-box .lang-link, .min-content .logIn-form-box .logIn-form .form-group label {
+  .prag, .form-group label, .link-style, .header-container .lang-box .lang-link {
     font-size: 12px;
   }
   .min-content .logIn-form-box {
@@ -380,7 +397,7 @@ html[dir="ltr"] .survey-section .survey-form .survey-box .question-box:after {
   .survey-section .survey-form .survey-box .question-box .question-label-box {
     padding: 10px;
   }
-  .survey-section .survey-form .survey-box .question-box .question-label-box .prag, .survey-section .survey-form .survey-box .question-box .question-label-box .link-style, .survey-section .survey-form .survey-box .question-box .question-label-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .survey-form .survey-box .question-box .question-label-box .lang-link, .survey-section .survey-form .survey-box .question-box .question-label-box .min-content .logIn-form-box .logIn-form .form-group label, .min-content .logIn-form-box .logIn-form .form-group .survey-section .survey-form .survey-box .question-box .question-label-box label {
+  .survey-section .survey-form .survey-box .question-box .question-label-box .prag, .survey-section .survey-form .survey-box .question-box .question-label-box .form-group label, .form-group .survey-section .survey-form .survey-box .question-box .question-label-box label, .survey-section .survey-form .survey-box .question-box .question-label-box .link-style, .survey-section .survey-form .survey-box .question-box .question-label-box .header-container .lang-box .lang-link, .header-container .lang-box .survey-section .survey-form .survey-box .question-box .question-label-box .lang-link {
     font-size: 14px !important;
   }
   .survey-section .survey-form .survey-box .question-box:after {
